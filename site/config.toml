@@ -1,9 +1,119 @@
 baseurl = "/"
 languageCode = "en-us"
-languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "The Stämplfi Consortium"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "The Stämplfi Consortium"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "<img src='img/sc_logo_main.png' alt=''>"
+		subtitle   = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "A scalable business, marketing and communications SOLUTIONS provider."
+		description = "Comprised of a network of independent, reputable, experienced and results-driven professionals. Our purpose is to provide effective solutions to companies who want to move to their brands or commercial strength to the next level at palatable rates.We want to help you win!"
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Branding and Marketing"
+            description = "Brand Start-Ups, Refreshers ad, Re-Engineering, Marketing Plans and Roll-Out programmes, Market Research and Analysis"
+
+        [[params.services.list]]
+			icon = "fa-calendar-check-o"
+			title = "Event Planning and Management"
+			description = "Meetings, Conferences, Staff events, Activations and Award functions"
+
+		[[params.services.list]]
+            icon = "fa-compass"
+            title = "Digital Marketing Strategy"
+            description = "Website Design and Development, On-Line Strategy, Social Media Planning and Management, Content Creation, Other Digital Solutions"
+
+        [[params.services.list]]
+            icon = "fa-handshake-o"
+            title = "PR and Corporate Communications"
+            description = "You have to make your websites with love these days!"
+
+  	[[params.services.list]]
+            icon = "fa-line-chart"
+            title = "Sales-Force Strengthening"
+            description = "Revising Sales Strategy and Re-kitting your team, Sales Training, Lead generation and conversion, Creating or changing the sales culture in your organisation"
+
+        [[params.services.list]]
+            icon = "fa-book"
+            title = "Market Research and Analysis"
+            description = "Quantitative and Qualitative, Economic Analyses and Reviews"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Get the Creative Theme for Hugo"
+
+		[params.aside.button]
+			text = "Download now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+    name = "Rachel Stämplfi"
+    title = "Founder & CEO"
+		phone = "868.684.9675"
+		email = "rclstampfli@outlook.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
