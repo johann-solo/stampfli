@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "The Stämplfi Consortium"
+title = "The Stämpfli Consortium"
 theme = "stampfli"
 googleAnalytics = ""
 
@@ -29,7 +29,7 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "The Stämplfi Consortium"
+		brand = "The Stämpfli Consortium"
 
 		[params.navigation.links]
 			about     = "About"
@@ -42,14 +42,14 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "<img src='img/sc_logo_main.png' alt=''>"
-		subtitle   = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
+		subtitle   = "A network of independent, reputable, experienced and results-driven professionals. Our purpose is to provide effective solutions to companies who want to move to their brands or commercial strength to the next level at palatable rates. <We want to help you win!"
 		buttonText = "Find out more"
 
 
 	# About section
 	[params.about]
 		headline    = "A scalable business, marketing and communications SOLUTIONS provider."
-		description = "Comprised of a network of independent, reputable, experienced and results-driven professionals. Our purpose is to provide effective solutions to companies who want to move to their brands or commercial strength to the next level at palatable rates.We want to help you win!"
+		description = "We are a business-to-business service provider specialising in business, brand marketing and communications solutions. The Stämpfli Consortium is essentially a group of consultants who have come together to work on brand marketing and business challenges. Whether you need 1 consultant, 2 or a full multi-skilled 360˚team, we can service you based on your specific needs. We can work at very competitive rates and flexible fees because of our set up and low overheads. Stämpfli Consortium members possess significant expertise and experience, most with over 20 years, with a proven track-record of delivering results. By extension all members have a reputation based on excellence of quality work and professionalism. Singularly members are effective, synergistically we can do great things for you. There is no task too big or too small for us."
 		buttonText  = "Get started!"
 
 
@@ -68,14 +68,14 @@ googleAnalytics = ""
 			description = "Meetings, Conferences, Staff events, Activations and Award functions"
 
 		[[params.services.list]]
-            icon = "fa-compass"
+            icon = "fa-bullseye"
             title = "Digital Marketing Strategy"
             description = "Website Design and Development, On-Line Strategy, Social Media Planning and Management, Content Creation, Other Digital Solutions"
 
         [[params.services.list]]
-            icon = "fa-handshake-o"
+            icon = "fa-comments-o"
             title = "PR and Corporate Communications"
-            description = "You have to make your websites with love these days!"
+            description = "Public Relations Strategy, Tactical Planning and Execution, PR for Specific Events or Campaigns, Crisis Communications Management, Media Relations and Management, Protocol Planning and Management"
 
   	[[params.services.list]]
             icon = "fa-line-chart"
@@ -86,6 +86,10 @@ googleAnalytics = ""
             icon = "fa-book"
             title = "Market Research and Analysis"
             description = "Quantitative and Qualitative, Economic Analyses and Reviews"
+
+	# About Mission
+	[params.mission]
+		headline = "Get the Creative Theme for Hugo"
 
 
     # Portfolio modals
@@ -109,6 +113,7 @@ googleAnalytics = ""
 		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
     name = "Rachel Stämplfi"
     title = "Founder & CEO"
+		address = "8 Acton Court, Four Roads, Diego Martin, Trinidad"
 		phone = "868.684.9675"
 		email = "rclstampfli@outlook.com"
 

@@ -23,6 +23,11 @@
                   <p class="text-center">{{ .Site.Params.contact.title }}</p>
                 </div>
             {{ end }}
+            {{ if .Site.Params.contact.address }}
+                <div class="text-center">
+                  <p class="text-center">{{ .Site.Params.contact.address }}</p>
+                </div>
+            {{ end }}
             {{ if .Site.Params.contact.phone }}
                 <div class="text-center">
                     <p  class="text-center"><i class="fa fa-phone fa-2x wow bounceIn" data-wow-delay=".1s"></i><a href="mailto:{{ .Site.Params.contact.phone }}">{{ .Site.Params.contact.phone }}</a></p>

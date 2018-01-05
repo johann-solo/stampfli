@@ -20,6 +20,10 @@
             {{ partial "services.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.mission.list }}
+            {{ partial "services.html" . }}
+        {{ end }}
+
         {{ if .Site.Data.projects }}
             {{ partial "portfolio.html" . }}
         {{ end }}
