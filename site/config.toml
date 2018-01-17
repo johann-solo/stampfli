@@ -42,14 +42,14 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "<img src='img/sc_logo_main.png' alt=''>"
-		subtitle   = "A network of independent, reputable, experienced and results-driven professionals. Our purpose is to provide effective solutions to companies who want to move to their brands or commercial strength to the next level at palatable rates. <We want to help you win!"
+		subtitle   = "A network of independent, reputable, experienced and results-driven professionals. Our purpose is to provide effective solutions to companies who want to move to their brands or commercial strength to the next level at palatable rates. We want to help you win! <br><br>We are a business-to-business service provider specialising in business, brand marketing and communications solutions."
 		buttonText = "Find out more"
 
 
 	# About section
 	[params.about]
 		headline    = "A scalable business, marketing and communications SOLUTIONS provider."
-		description = "We are a business-to-business service provider specialising in business, brand marketing and communications solutions. The Stämpfli Consortium is essentially a group of consultants who have come together to work on brand marketing and business challenges. Whether you need 1 consultant, 2 or a full multi-skilled 360˚team, we can service you based on your specific needs. We can work at very competitive rates and flexible fees because of our set up and low overheads. Stämpfli Consortium members possess significant expertise and experience, most with over 20 years, with a proven track-record of delivering results. By extension all members have a reputation based on excellence of quality work and professionalism. Singularly members are effective, synergistically we can do great things for you. There is no task too big or too small for us."
+		description = "We are a business-to-business service provider specialising in business, brand marketing and communications solutions. <br><br>The Stämpfli Consortium is essentially a group of consultants who have come together to work on brand marketing and business challenges. Whether you need 1 consultant, 2 or a full multi-skilled 360˚team, we can service you based on your specific needs. We can work at very competitive rates and flexible fees because of our set up and low overheads. <br><br>Stämpfli Consortium members possess significant expertise and experience, most with over 20 years, with a proven track-record of delivering results. By extension all members have a reputation based on excellence of quality work and professionalism. Singularly members are effective, synergistically we can do great things for you. <br><br>There is no task too big or too small for us."
 		buttonText  = "Get started!"
 
 
@@ -89,7 +89,8 @@ googleAnalytics = ""
 
 	# About Mission
 	[params.mission]
-		headline = "Get the Creative Theme for Hugo"
+		headline = "Our Mission"
+		description = "We do good stuff"
 
 
     # Portfolio modals
@@ -100,17 +101,17 @@ googleAnalytics = ""
         buttonText = "Close"
 
     # Aside section
-	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
-
-		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+	# [params.aside]
+	# 	headline = "Get the Creative Theme for Hugo"
+  #
+	# 	[params.aside.button]
+	# 		text = "Download now"
+	# 		link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
 	# Contact section
 	[params.contact]
-		headline = "Let's Get In Touch!"
-		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		headline = "Ready to start your next project with us?"
+		description = "Give us a call or send us an email and we will get back to you as soon as possible!"
     name = "Rachel Stämplfi"
     title = "Founder & CEO"
 		address = "8 Acton Court, Four Roads, Diego Martin, Trinidad"

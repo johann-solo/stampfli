@@ -20,8 +20,8 @@
             {{ partial "services.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.mission.list }}
-            {{ partial "services.html" . }}
+        {{ if .Site.Params.mission }}
+            {{ partial "mission.html" . }}
         {{ end }}
 
         {{ if .Site.Data.projects }}
@@ -32,13 +32,11 @@
             {{ partial "location.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.aside }}
-            {{ partial "aside.html" . }}
-        {{ end }}
-
         {{ if .Site.Params.contact }}
             {{ partial "contact.html" . }}
         {{ end }}
+
+        {{ partial "footer.html" . }}
 
         {{ if .Site.Data.projects }}
             {{ partial "modals.html" . }}
