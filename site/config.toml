@@ -24,7 +24,7 @@ buttonText = "Find out more"
 slogan = "<img src='img/sc_logo_main.png' alt=''>"
 subtitle = "A network of independent, reputable, experienced and results-driven professionals. <br><br>Our purpose is to provide effective solutions to companies who want to move to their brands or commercial strength to the next level at palatable rates. We want to help you win!"
 [params.mission]
-description = "We do good stuff"
+description = "We do good stuff for you"
 headline = "Our Mission"
 [params.navigation]
 brand = "The Stämpfli Consortium"
