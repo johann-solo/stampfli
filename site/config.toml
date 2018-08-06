@@ -9,8 +9,8 @@ favicon = "favicon.ico"
 name = "Your name"
 [params.about]
 buttonText = "Get started!"
-description = "We are a business-to-business service provider specialising in business, brand marketing and communications solutions. \n\nThe Stämpfli Consortium is essentially a group of consultants who have come together to work on brand marketing and business challenges. Whether you need 1 consultant, 2 or a full multi-skilled 360˚team, we can service you based on your specific needs. We can work at very competitive rates and flexible fees because of our set up and low overheads. \n\nStämpfli Consortium members possess significant expertise and experience, most with over 20 years, with a proven track-record of delivering results. By extension all members have a reputation based on excellence of quality work and professionalism. Singularly members are effective, synergistically we can do great things for you. \n\nThere is no task too big or too small for us."
-headline = "A scalable business, marketing and communications SOLUTIONS provider"
+description = "Founded by Rachel Stämpfli, a marketing and new business development professional with over 24 years experience.\n\nShe has worked with some of Trinidad’s leading FMCG brand distributors and manufacturers in the capacity of Advertising Executive, Media Marketing Manager, New Business Development Manager and most recently as the COO of the number #1 Advertising Agency in the English-speaking Caribbean. She is also currently the Operations Manager of the Trinidad & Tobago Chamber of Industry and Commerce, with responsibility for marketing, communications, membership, and finance.\n\nHere are a few career highlights: \n\n• Worked with 2 of Trinidad’s top Agencies, McCann Erickson and Lonsdale Saatchi & Saatchi. \nManaged many FMCG brands, local and International, like Maggi, Johnson’s baby, Stayfree, Neutrogena, Clean and Clear,  Savlon, Splenda, ”I Can’t Believe It’s Not Butter!”, Close-Up, Lux, Cadbury, SKYY vodka, Riunite, Asti Riccadonna, and other Nestle Caribbean multi-brand projects\n\n• Marketing Manager of CCN TV6, Trinidad & Tobago Pageant Company \nCo-founder and Manager of ReachCaribbean (the Caribbean’s first non-agency Pan-Caribbean media booking service)\n\n• COO of Lonsdale Saatchi & Saatchi Advertising. Developed, launched and co-managed 3 new business units within Lonsdale Saatchi & Saatchi- iuGO Digital; The Aesthetic 868-events and experiences and; Sage Corporate Communications & Publications.\n\nManaged 360˚teams for special projects for the Ministry of Planning and Sustainable Development (see more below), Samsung mobile devices, The Sport Company of Trinidad & Tobago and Scotiabank Foundation of Trinidad & Tobago for the 2016 Women Against Breast Cancer 5K to name a few\n\nCoordinated 5 campaign/programmes over 4 years for the ‘idea 2 innovation’ (i2i) initiative for the Ministry of Planning and Sustainable Development by the Council for Competitiveness and Innovation (CCI).\n\n• Representative for Caribbean Communications Network (CCN) at the Trinidad & Tobago Publishers and Broadcasters Association (TTPBA), a past member of the Association of Female Executives of Trinidad & Tobago (AFETT). Also a representative for McCann Erickson Trinidad for the special events committee for the Advertising Agencies Association (AAATT).\n\n• Representative at American Chamber of Commerce and Trinidad Chamber of Commerce events for Lonsdale Saatchi & Saatchi Advertising\n\n• Currently the Operations Manager of the Trinidad and Tobago Industry and Commerce\n\n\nThe Stämpfli Consortium is the result of building deep and meaningful working relationships with some of the top players in their respective fields in T & T over the years and turning it into a network of solution providers through true synergy."
+headline = "Who is Stampfli Consortium?"
 [params.contact]
 address = "8 Acton Court, Four Roads, Diego Martin, Trinidad"
 description = "Give us a call or send us an email and we will get back to you as soon as possible!"
@@ -24,7 +24,7 @@ buttonText = "Find out more"
 slogan = "<img src='img/sc_logo_main.png' alt=''>"
 subtitle = "A network of independent, reputable, experienced and results-driven professionals. <br><br>Our purpose is to provide effective solutions to companies who want to move to their brands or commercial strength to the next level at palatable rates. We want to help you win!"
 [params.mission]
-description = "• To inspire and guide companies on how to re-imagine their brands to achieve new heights. \n\n• To create meaningful and rewarding opportunity for Consortium members and share holders to provide great work and service through synergy in a fair environment based on contribution. \n\n• To excite consumers with a renewed sense of connection to brands."
+description = "We do good stuff for you"
 headline = "Our Mission"
 [params.navigation]
 brand = "The Stämpfli Consortium"
@@ -35,7 +35,7 @@ portfolio = "Portfolio"
 services = "Services"
 [params.portfolio.modal]
 buttonText = "Close"
-category = "Category"
+category = ["Category"]
 client = "Client"
 date = "Date"
 [params.services]
