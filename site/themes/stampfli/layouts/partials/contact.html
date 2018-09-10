@@ -30,12 +30,12 @@
             {{ end }}
             {{ if .Site.Params.contact.phone }}
                 <div class="text-center">
-                    <p  class="text-center"><a href="mailto:{{ .Site.Params.contact.phone }}">{{ .Site.Params.contact.phone }}</a></p>
+                    <p  class="text-center"><a href="tel:{{ .Site.Params.contact.phone }}">{{ .Site.Params.contact.phone }}</a></p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.email }}
                 <div class="text-center">
-                    <p  class="text-center"><a href="mailto:{{ .Site.Params.contact.phone }}">{{ .Site.Params.contact.email }}</a></p>
+                    <p  class="text-center"><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
                 </div>
             {{ end }}
 
